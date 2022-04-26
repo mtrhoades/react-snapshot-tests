@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a snapshot 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "fontFamily": "sans-serif",
+      "justifyContent": "center",
+    }
+  }
+>
+  <div
+    className="card"
+    style={
+      Object {
+        "width": "18rem",
+      }
+    }
+  >
+    <img
+      className="card-img-top"
+      src="github.png"
+      style={
+        Object {
+          "width": "200px",
+        }
+      }
+    />
+    <div
+      className="card-body"
+    >
+      <br />
+      <div
+        className="card-title h5"
+        style={
+          Object {
+            "fontSize": "20px",
+          }
+        }
+      >
+        Matthew Rhoades
+      </div>
+      <p
+        className="card-text"
+      >
+        Github Profile
+      </p>
+      <br />
+      <a
+        className="btn btn-primary"
+        disabled={false}
+        href="https://github.com/"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        style={
+          Object {
+            "backgroundColor": "black",
+            "borderRadius": "30px",
+            "color": "white",
+            "padding": "10px",
+            "textDecoration": "none",
+          }
+        }
+        tabIndex={0}
+      >
+        Go to github
+      </a>
+    </div>
+  </div>
+</div>
+`;
